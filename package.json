@@ -8,6 +8,7 @@
     "watch": "webpack --watch",
     "start": "webpack serve --open",
     "server": "node server.js",
+    "build-env-test": "webpack --env goal=local --env production --progress",
     "build": "webpack"
   },
   "keywords": [],
